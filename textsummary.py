@@ -71,7 +71,6 @@ def generate_summary(file_name, top_n=5):
      stop_words = stopwords.words('english')
      summarize_text = []
      
-
         # Step 1 - Read text anc split it
      sentences = read_article(file_name)
 
